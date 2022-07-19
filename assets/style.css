@@ -1,0 +1,12 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(62,62,238), rgb(15,15,102));
+    color:white;
+    padding: 12px;
+}
