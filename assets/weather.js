@@ -47,7 +47,22 @@ function currentCondition(city){
             <span id="uvIndexColor" class="px-2 py-2 rounded">${uvIndex}</span>
             </p>
             `);
-           
-        })
-    })
-}
+           $('#cityDetail').append(uvIndexP);
+
+           futureCondition(lat, lon);
+           // colored index for each uv index
+           if (uvIndex>= 0 && uvIndex ,=2){
+            $("#UvIndexColor").css('background-color', '#3EA72D').css("color",'white');
+           } else if (uvIndex >= 3 && uvIndex ,= 5) {
+            $("#uvIndexColor").css("background-color", "#FFF300");{
+            } else if (uvIndex >= 6 && uvIndex <=7) {
+                $("uvIndexColor").css("background-color", '#F18B00'){
+                } else if ("#uvINdexColor" >= 8 && uvIndex <= 10) {
+                $('#uvIndexColor').css("background-color", '#E53210'),css('color','white');
+            } else {
+                $('#uvIndexColor').css('background-color', #B567A4).css('color', 'white');
+            };
+            });
+             }):
+        }
+    
